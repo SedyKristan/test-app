@@ -1,0 +1,24 @@
+{
+    "formFields": [
+      {
+        "module": ["sign-up"],
+        "type": "text",
+        "label": "Name"
+      },
+      {
+        "module": ["sign-in", "sign-up"],
+        "type": "email",
+        "label": "Email"
+      },
+      {
+        "module": ["sign-in", "sign-up"],
+        "type": "password",
+        "label": "Password"
+      },
+      {
+        "module": ["sign-up"],
+        "type": "password",
+        "label": "Confirm Password"
+      }
+    ]
+  }

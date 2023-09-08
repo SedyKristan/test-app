@@ -1,0 +1,126 @@
+.auth_container {
+  padding-top: 48px;
+}
+
+.image_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image_wrapper::before {
+  content: "";
+  position: absolute;
+  background-color: #bdbdbd;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image_box {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background-color: var(--white);
+  z-index: 1;
+}
+
+.image_box::before,
+.image_box::after {
+  content: "";
+  background-color: var(--white);
+  position: absolute;
+  width: 24px;
+  height: 100%;
+  top: 0;
+}
+
+.image_box::before {
+  left: -24px;
+}
+
+.auth_title {
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.auth_card {
+  padding: 40px 20px;
+  box-shadow: var(--card-dropshadow);
+}
+
+.auth_email_wrapper {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.auth_email_wrapper label {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  transition: all 0.2s ease-out;
+  pointer-events: none;
+  color: var(--sub-default);
+  font-family: Inter, "sans-serif";
+}
+
+.auth_email_wrapper input {
+  width: 100%;
+  padding: 32px 15px 10px 15px;
+  border: 1px solid var(--secondary-default);
+  border-radius: 4px;
+  position: relative;
+  background-color: transparent;
+  font-family: Inter, "sans-serif";
+}
+
+.auth_email_wrapper input:focus + label,
+.auth_email_wrapper input:not(:placeholder-shown) + label {
+  transform: translateY(-90%);
+  font-size: var(--fluid-size-7);
+}
+
+.auth_icon {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+
+.auth_links_wrapper {
+  margin-top: 40px;
+}
+
+.auth_link {
+  color: var(--main-default);
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: var(--fluid-size-5);
+}
+
+.auth_button {
+  margin: 16px 0;
+}
+
+.auth_sublink {
+  color: var(--sub-default);
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.auth_sublink strong {
+  color: var(--main-default);
+}
+
+.error_text {
+  color: var(--sub-default);
+  margin-top: 4px;
+  list-style: disc;
+  margin-left: 16px;
+}

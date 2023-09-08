@@ -1,0 +1,12 @@
+:root {
+    --nav-height-desktop: 3rem;
+    --nav-height-mobile: 4.625rem;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    --nav-dropshadow: 0 -2px 50px 0 rgba(0, 0, 0, 0.05);
+    --button-dropshadow: 0 8px 30px 0 rgba(48, 48, 48, 0.3);
+    --card-dropshadow: 0 8px 40px 0 rgba(138, 149, 158, 0.2)
+}

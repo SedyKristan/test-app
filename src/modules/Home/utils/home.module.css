@@ -1,0 +1,80 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 18px !important;
+  gap: 18px;
+  height: 100vh;
+  overflow: scroll;
+  position: fixed;
+  padding-bottom: 260px;
+}
+
+.product_name {
+  font-weight: 400;
+  margin-top: 28px;
+}
+
+.product_price_quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product_review {
+  display: flex;
+  align-items: center;
+}
+
+.product_review span {
+  color: var(--yellow-default);
+  font-size: var(--fluid-size-1);
+  margin-right: 2px;
+}
+
+.product_review p {
+  font-size: var(--fluid-size-6);
+  color: var(--sub-default);
+  margin-left: 16px;
+}
+
+.product_description {
+  font-size: var(--fluid-size-6);
+  color: var(--sub-default);
+  margin-top: 16px;
+}
+
+.button_group {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 12px;
+  margin-bottom: 32px;
+}
+
+.button_group button {
+  border: none;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.product_bookmark {
+  min-width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-default);
+}
+
+.button_group button span {
+  font-size: var(--fluid-size-1);
+  color: var(--sub-default);
+}
+
+.product_button {
+  margin-left: 18px;
+  width: 100%;
+}

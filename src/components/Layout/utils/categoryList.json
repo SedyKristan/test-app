@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Popular",
+    "icon": "star",
+    "type": "popular"
+  },
+  {
+    "label": "Chair",
+    "icon": "chair_alt",
+    "type": "chair"
+  },
+  {
+    "label": "Armchair",
+    "icon": "chair",
+    "type": "armchair"
+  },
+  {
+    "label": "Table",
+    "icon": "table_restaurant",
+    "type": "table"
+  },
+  {
+    "label": "Bed",
+    "icon": "bed",
+    "type": "bed"
+  },
+  {
+    "label": "Utensils",
+    "icon": "flatware",
+    "type": "utensils"
+  },
+  {
+    "label": "Shelves",
+    "icon": "shelves",
+    "type": "shelves"
+  }
+]

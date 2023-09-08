@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: var(--nav-height-mobile);
+  display: flex;
+  box-shadow: var(--nav-dropshadow);
+  background-color: var(--white);
+  z-index: var(--z-fixed);
+}
+
+.navbar_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar_item:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav_icon {
+  font-size: var(--fluid-size-1);
+  color: var(--sub-default);
+}
+
+.nav_icon_main {
+  color: var(--main-default);
+}

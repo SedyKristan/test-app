@@ -1,0 +1,11 @@
+:root {
+    --main-default: #242424;
+    --secondary-default: #e0e0e0;
+    --sub-default: #808080;
+    --bg-default: #f5f5f5;
+    --success-light: #27ae60;
+    --yellow-default: #f2c94c;
+    --danger-default: #eb5757;
+    --disable-default: #b3b3b3;
+    --white: #fff;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "route": "/home",
+    "type": "link",
+    "icon": "home"
+  },
+  {
+    "title": "Favorites",
+    "route": "/favorites",
+    "type": "link",
+    "icon": "bookmark"
+  },
+  {
+    "title": "Notification",
+    "route": "/",
+    "type": "link",
+    "icon": "notifications"
+  },
+  {
+    "title": "Profile",
+    "route": "/",
+    "type": "link",
+    "icon": "person"
+  }
+]
