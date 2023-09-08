@@ -87,7 +87,7 @@ const Auth = ({ formFields, module, ctaText }) => {
       return;
     }
     e.preventDefault();
-    router.push("/");
+    router.push("/home");
   };
 
   const handleSuccessLogin = async (e) => {
